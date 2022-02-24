@@ -13,9 +13,9 @@ const Header = () => {
     }
 
     return (
-        <div className='header'>
+        <div sticky className='header'>
 
-                    <div className="header__logo">
+                    <div className='header__logo'>
                         <h1>Portfolio</h1>
                     </div>
 

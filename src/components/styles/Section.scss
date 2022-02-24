@@ -28,7 +28,7 @@
 
     p {
         font-weight: bolder;
-        color: grey;
+        color: rgb(255, 255, 255);
         text-transform: uppercase;
         
         cursor: pointer;
@@ -40,9 +40,9 @@
         &:hover {
             transform: scale(110%);
             transition: ease 250ms;
-            color: rgb(255, 255, 255);
-            box-shadow: 2px 2px 15px rgb(240, 240, 240);
-            border-bottom: 1px solid rgb(110, 110, 110);
+            color: rgb(0, 0, 0);
+            box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
+            background-color: #fff;
         }
     }
 }
@@ -55,12 +55,12 @@
 
     h1 {
 
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 0rem;
     }
 
     p {
-        font-size: 26px;
+        font-size: 20px;
         margin-block: 25px;
         padding: 25px;
         font-weight: normal;
@@ -99,7 +99,7 @@
     }
 
     p {
-        font-size: 10px;
+        font-size: 13px;
         margin-block:5px;
         padding: 5px;
 

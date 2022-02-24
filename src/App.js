@@ -5,11 +5,13 @@ import Header from './components/Header';
 import Section from './components/Section';
 import Works from './components/Works';
 
+
 function App() {
   return (
     <div className='App'>
       <Header/>
       <Main/>
+
       <Section/>
       <Works/>
     </div>

@@ -1,6 +1,7 @@
 import { Email, GitHub, LinkedIn } from '@material-ui/icons';
 import React, { useState } from 'react';
 import { Parallax } from 'react-parallax';
+import { Link } from 'react-router-dom';
 import Sand from './img/bkg1.jpeg';
 import './styles/Main.scss';
 
@@ -11,34 +12,38 @@ const Main = () => {
             <div className='main'>
                 <div className='main__container'>
 
-                    <div className="main__content">
+                    <div className='main__content'>
 
-                        <div className="text">
+                        <div className='text'>
                                 <p>Hi, My Name Is</p>
-                                <h1 className="name">Brandon Tran</h1>
+                                <h1 className='name'>Brandon Tran</h1>
                                 <p>Front End Web & Mobile App Dev</p>
 
-                                <div className="icons">
+                                <div className='icons'>
                                     <Email className='icon'/>
                                     <GitHub className='icon'/>
                                     <LinkedIn className='icon'/>
                                 </div>
-                            <div class="text-box">
-                            <div class="row">
-                                <a class="neon" href="">
-                                    <span class="neon-span"></span>
-                                    <span class="neon-span"></span>
-                                    <span class="neon-span"></span>
-                                    <span class="neon-span"></span>
-                                    Latest Work
-                                </a>
-                                <a class="neon" href="">
-                                    <span class="neon-span"></span>
-                                    <span class="neon-span"></span>
-                                    <span class="neon-span"></span>
-                                    <span class="neon-span"></span>
-                                    Let's Connect
-                                </a>
+                            <div class='text-box'>
+                            <div class='row'>
+                                <Link to= '/Work'>
+                                    <a class='neon'>
+                                        <span class='neon-span'></span>
+                                        <span class='neon-span'></span>
+                                        <span class='neon-span'></span>
+                                        <span class='neon-span'></span>
+                                        Latest Work
+                                    </a>
+                                </Link>
+                                <Link to= '/Contact'>
+                                    <a class='neon'>
+                                        <span class='neon-span'></span>
+                                        <span class='neon-span'></span>
+                                        <span class='neon-span'></span>
+                                        <span class='neon-span'></span>
+                                        Let's Connect
+                                    </a>
+                                </Link>
                             </div>
 
                             </div>

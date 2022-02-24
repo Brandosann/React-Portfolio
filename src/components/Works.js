@@ -8,7 +8,7 @@ import Water from './img/bkg3.jpg';
 
 const Works = () => {
     return (
-        <Parallax className='image' blur={0} bgImage={Water} strength={800} bgImageStyle={{minHeight:"100vh", minWidth: "100vh"}}>
+        <Parallax className='image' blur={0} bgImage={Water} strength={2000} bgImageStyle={{minHeight:'100vh', minWidth: '100vh'}}>
             <div className='works'>
                 <div className="work__section">
 
