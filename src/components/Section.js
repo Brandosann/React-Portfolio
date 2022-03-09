@@ -1,11 +1,11 @@
 import React from 'react';
 import './styles/Section.scss';
 import { Parallax } from 'react-parallax';
-import Beach from './img/bkg2.jpg';
+import Beach from './img/bkg4.jpg';
 
 const Section = () => {
     return (
-        <Parallax className='image' blur={0} bgImage={Beach} strength={800} bgImageStyle={{minHeight:'100vh', minWidth: '100vh'}}>
+        <Parallax className='image' blur={0} bgImage={Beach} strength={900} bgImageStyle={{minHeight:'100vh', minWidth: '100vh'}}>
             <div className='section'>
 
                 <div className='section__container'>

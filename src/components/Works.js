@@ -4,11 +4,11 @@ import wd2 from './styles/wd2.jpg';
 import wd4 from './styles/wd4.jpg';
 import './styles/Works.scss';
 import { Parallax } from 'react-parallax';
-import Water from './img/bkg3.jpg';
+import Water from './img/bkg4.jpg';
 
 const Works = () => {
     return (
-        <Parallax className='image' blur={0} bgImage={Water} strength={2000} bgImageStyle={{minHeight:'100vh', minWidth: '100vh'}}>
+        <Parallax className='image' blur={0} bgImage={Water} strength={800} bgImageStyle={{minHeight:'100vh', minWidth: '100vh'}}>
             <div className='works'>
                 <div className="work__section">
 
