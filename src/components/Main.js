@@ -1,14 +1,11 @@
 import { Email, GitHub, LinkedIn } from '@material-ui/icons';
 import React, { useState } from 'react';
-import { Parallax } from 'react-parallax';
-import { Link } from 'react-router-dom';
-import Sand from './img/bkg1.jpeg';
+
 import './styles/Main.scss';
 
 
 const Main = () => {
     return (
-        <Parallax className='image' blur={0} bgImage={Sand} strength={800} bgImageStyle={{minHeight:"100vh", minWidth: "100vh"}}>
             <div className='main'>
                 <div className='main__container'>
 
@@ -20,33 +17,13 @@ const Main = () => {
                                 <p>Front End Web & Mobile App Dev</p>
 
                                 <div className='icons'>
-                                    <Email className='icon'/>
-                                    <GitHub className='icon'/>
-                                    <LinkedIn className='icon'/>
+                                    <a href='https://github.com/Brandosann?tab=repositories'>
+                                        <GitHub className='icon'/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/in/brandon-tran-535645226/'>
+                                        <LinkedIn className='icon'/>
+                                    </a>
                                 </div>
-                            <div class='text-box'>
-                            <div class='row'>
-                                <Link to= '/Work'>
-                                    <a class='neon'>
-                                        <span class='neon-span'></span>
-                                        <span class='neon-span'></span>
-                                        <span class='neon-span'></span>
-                                        <span class='neon-span'></span>
-                                        Latest Work
-                                    </a>
-                                </Link>
-                                <Link to= '/Contact'>
-                                    <a class='neon'>
-                                        <span class='neon-span'></span>
-                                        <span class='neon-span'></span>
-                                        <span class='neon-span'></span>
-                                        <span class='neon-span'></span>
-                                        Let's Connect
-                                    </a>
-                                </Link>
-                            </div>
-
-                            </div>
 
                         </div>
 
@@ -54,7 +31,6 @@ const Main = () => {
                     
                 </div>
             </div>
-        </Parallax>
     )
 }
 

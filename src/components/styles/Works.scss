@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    background-color: black;
 }
 
 @media (min-width:50em) {
@@ -12,6 +13,12 @@
         grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
         gap: 1.5rem;
     }
+}
+
+.header1 {
+    text-align: center;
+    background-color: black;
+    font-size: 35px;
 }
 
 .cards {
@@ -54,13 +61,6 @@
         opacity: .6;
     }
 }
-
-
-
-
-
-
-
 
 @media(max-width:800px){
     .work__section {
