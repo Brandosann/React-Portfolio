@@ -1,5 +1,5 @@
-import { Email, GitHub, LinkedIn } from '@material-ui/icons';
-import React, { useState } from 'react';
+import { GitHub, LinkedIn } from '@material-ui/icons';
+import React from 'react';
 
 import './styles/Main.scss';
 
